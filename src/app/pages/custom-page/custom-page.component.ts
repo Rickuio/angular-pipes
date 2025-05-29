@@ -12,8 +12,8 @@ import { HeroFilterPipe } from '../../pipes/hero-filter.pipe';
 
 @Component({
   selector: 'app-custom-page',
-  imports: [ToggleCasePipe, CanFlyPipe, HeroColorPipe, 
-    HeroTextColorPipe, TitleCasePipe, HeroCreatorPipe, HeroSortByPipe, HeroFilterPipe],
+  imports: [ToggleCasePipe, CanFlyPipe, HeroColorPipe, HeroFilterPipe, 
+    HeroTextColorPipe, TitleCasePipe, HeroCreatorPipe, HeroSortByPipe],
   templateUrl: './custom-page.component.html',
 })
 export default class CustomPageComponent {
